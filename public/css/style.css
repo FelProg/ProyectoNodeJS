@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #e9dff3;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(79, 79, 80), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right,  rgb(79, 79, 80), rgba(37, 117, 252, 1))
+  }
+
+  .swal-overlay{
+    background-color: rgba(31, 29, 23, 0.69);
+  
+  }
+
+  .swal-button{
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #31343f;
+    font-size: 12px;
+    border: 1px solid #263153;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
